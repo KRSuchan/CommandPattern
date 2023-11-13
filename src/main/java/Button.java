@@ -1,5 +1,3 @@
-package org.example;
-
 public class Button {
     private Command theCommand;
     public Button(Command theCommand){

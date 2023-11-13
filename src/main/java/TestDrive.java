@@ -1,7 +1,7 @@
-package org.example;
-
-public class Main {
+public class TestDrive {
     public static void main(String[] args) {
+        MyHWInfo.printInfo();
+
         Lamp lamp = new Lamp();
         Command lampOnCommand = new LampOnCommand(lamp);
 

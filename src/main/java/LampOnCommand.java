@@ -1,5 +1,3 @@
-package org.example;
-
 public class LampOnCommand implements Command{
     private Lamp theLamp;
     public LampOnCommand(Lamp theLamp){
